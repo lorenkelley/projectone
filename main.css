@@ -6,13 +6,17 @@ th{
     text-align: center;
 }
 td{
-    height: 150px;
+    height: 125px;
     width: 150px;
 }
 .card{
-    border: none;
-    box-shadow: 1px 1px whitesmoke;
- 
+    border: solid;
+    box-shadow: 2px 2px whitesmoke;
     margin: auto;
-   
+    width: 28rem;
+    height: 25rem;
+    background-image: url("images/3d50ebc26ad80853b6045adb73cd4875.jpg")
+}
+#one{
+    background-image: url("images/49e632b7827ccf6b82b9e6daf9a4a848.jpg")
 }
