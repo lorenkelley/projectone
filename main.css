@@ -1,0 +1,7 @@
+.containerOne{
+    height: 100%;
+    width: 100%;
+    border: solid pink;
+    margin-top: 50px;
+    /* margin: auto; */
+    background-image: url("images/homepage.png")
