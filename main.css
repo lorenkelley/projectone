@@ -1,34 +1,35 @@
 .theBody{
-    background-image: url("images/cheetah.jpg");
+    background-image: url("images/a369d75247fb5cc97f434779913238e5.jpg")
+    background
+    
 }
 .container{
-    background-color: whitesmoke;
+    background-color: rgba(30, 31, 39, 0.878);
 }
 table{
     margin: auto;
-    text-align: center;
+   
+    color: whitesmoke;
 }
 th{
-    
+    text-align: right;
     font-size: 30px;
 }
 td{
     height: 125px;
     width: 150px;
+    z-index: 1;
     /* box-shadow: 2px 2px; */
 }
-/* p{
+p{
     font-size: 100px;
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
-} */
+    font-weight: bold; 
+}
 .card{
     border: none;
     margin: auto;
     width: 28rem;
     height: 25rem;
-   
-   
 }
 #one{
     /* image that will display on the card */
@@ -38,14 +39,7 @@ td{
     color: whitesmoke;
     font-size: 10rem;
 }
-.card:hover{
-    opacity: 0;
-    /* using opacatiy to hide the image on hover- i intially used */
-    transform: rotate(180deg);
-    transform-style: preserve-3d;
-    transition: 0.5s ease-in-out;
-   
-}
+
 #two{
     background-image: url("images/homepage.png");
     background-position: right;

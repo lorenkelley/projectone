@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    
     <!-- link main.css -->
     <link rel="stylesheet" href="main.css">
     <!-- Latest compiled and minified CSS -->
@@ -19,6 +19,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+        <title>Document</title>
 </head>
 
 <body class="theBody">
@@ -29,7 +30,7 @@
         <table class="table table-bordered">
             <thead>
                 <tr>
-
+                    <!-- categories for game board -->
                     <th scope="col">FASHION</th>
                     <th scope="col">TECHNLOGY</th>
                     <th scope="col">MUSIC</th>
@@ -40,81 +41,92 @@
                 <!-- tr row of cells -->
                 <tr>
                     <!-- td is the data cell in the table will hold cards plus different values (100-500)-->
-                    <td id="tdOne" >
-                        <div class="card" id="one">
-                          <!-- <p>100</p> -->
-                        </div>
+                    <td id="tdOne">
+                        <!-- make the div into a button that can called on in javscript to display my modal -->
+                        
+                            <div class="card" id="one">
+                                <!-- each card has a seperate id  -->
+                                <p id="numTag">100</p>
+                            </div>
+                        
                     </td>
                     <td>
-                        <div class="card" id="two">
-                                <!-- <p>100</p> -->
-                        </div>
+                    
+                            <div class="card" id="two" onclick="clickMe()">
+                                <p id="numTag">100</p>
+                            </div>
+                        
                     </td>
-    <td>
-        <div class="card" id="three"></div>
-    </td>
-    <td>
-        <div class="card" id="four"></div>
-    </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="card" id="five"></div>
-        </td>
-        <td>
-            <div class="card" id="six"></div>
-        </td>
-        <td>
-            <div class="card" id="seven"></div>
-        </td>
-        <td>
-            <div class="card" id="eight"></div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="card" id="nine"></div>
-        </td>
-        <td>
-            <div class="card" id="ten"> </div>
-        </td>
-        <td>
-            <div class="card" id="eleven"></div>
-        </td>
-        <td>
-            <div class="card" id="twelve"></div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="card" id="thirTeen"></div>
-        </td>
-        <td>
-            <div class="card" id="fourTeen"></div>
-        </td>
-        <td>
-            <div class="card" id="fifTeen"> </div>
-        </td>
-        <td>
-            <div class="card" id="sixTeen"></div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="card" id="sevenTeen"></div>
-        </td>
-        <td>
-            <div class="card" id="eightTeen"></div>
-        </td>
-        <td>
-            <div class="card" id="nineTeen"></div>
-        </td>
-        <td>
-            <div class="card" id="twenty"></div>
-        </td>
-    </tr>
-    </tbody>
-    </table>
+                    <td>
+                            <div class="card" id="three">
+                                <p id="numTag">100</p>
+                            </div>
+                       
+                    </td>
+                    <td>
+                            <div class="card" id="four">
+                                    <p id="numTag">100</p>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="five"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="six"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="seven"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="eight"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="nine"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="ten"> </div>
+                    </td>
+                    <td>
+                        <div class="card" id="eleven"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="twelve"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="thirTeen"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="fourTeen"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="fifTeen"> </div>
+                    </td>
+                    <td>
+                        <div class="card" id="sixTeen"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" id="sevenTeen"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="eightTeen"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="nineTeen"></div>
+                    </td>
+                    <td>
+                        <div class="card" id="twenty"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <script src="app.js"></script>
 </body>
