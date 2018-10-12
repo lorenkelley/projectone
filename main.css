@@ -1,13 +1,13 @@
 .theBody{
-    background-image: url("images/be88d409321916772d18c69f9fe80fdf.jpg");
+    
   
 }
 .container{
-    background-color: rgba(30, 31, 39, 0.884);
+    background-color: ;
 }
 table{
     margin: auto;
-   
+    background-image: url("");
     color: whitesmoke;
 }
 th{
@@ -68,5 +68,17 @@ p{
     background-image: url("images/nicki.png");
     background-position: top;
     background-size: 100% ;
-
 }
+.swal-overlay {
+    background-color: rgba(43, 165, 137, 0.45);
+  }
+  .score{
+      border: solid;
+      width: 119rem;
+      height: 5rem;
+  }
+  .playerOne{
+      border: solid;
+      width: 50rem;
+  }
+  
