@@ -6,7 +6,7 @@ document.getElementById("tdOne").addEventListener("mouseover", hoverTD)
 // step two: create a function
 function hoverTD() {
     // declare function 
-    document.getElementById("tdOne").style.background = "red"
+    document.getElementById("tdOne").style.background = "orange"
     // do this : once the html element is grabbed apply css styling 
 }
 

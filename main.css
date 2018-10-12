@@ -1,15 +1,27 @@
+.theBody{
+    background-image: url("images/cheetah.jpg");
+}
+.container{
+    background-color: whitesmoke;
+}
 table{
     margin: auto;
     text-align: center;
 }
 th{
-    text-align: center;
+    
+    font-size: 30px;
 }
 td{
     height: 125px;
     width: 150px;
     /* box-shadow: 2px 2px; */
 }
+/* p{
+    font-size: 100px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+} */
 .card{
     border: none;
     margin: auto;
@@ -19,28 +31,48 @@ td{
 }
 #one{
     /* image that will display on the card */
-    background-image: url("images/homepage.png");
-    background-repeat: space;
+    background-image: url("images/cardi\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
     color: whitesmoke;
     font-size: 10rem;
 }
-#one:hover{
+.card:hover{
     opacity: 0;
     /* using opacatiy to hide the image on hover- i intially used */
     transform: rotate(180deg);
     transform-style: preserve-3d;
     transition: 0.5s ease-in-out;
-    background-color: blueviolet;
+   
 }
 #two{
     background-image: url("images/homepage.png");
     background-position: right;
+    background-repeat: no-repeat;
 }
 #three{
     background-image: url("images/homepage.png");
     background-position: bottom;
+    background-repeat: no-repeat;
 }
 #four{
     background-image: url("images/homepage.png");
     background-position: left;
+    background-repeat: no-repeat;
+}
+#five{
+    background-image: url("images/2a0a40bce5871532ef14071f500778d3.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#six{
+    background-image: url("images/2a0a40bce5871532ef14071f500778d3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#seven{
+    background-image: url("images/nicki.png");
+    background-position: top;
+    background-size: 100% ;
+
 }

@@ -1,21 +1,24 @@
-
+body{
+    /* background-image: linear-gradient(rgba(235, 91, 182, 0.397) , rgb(33, 218, 238, 0.397)); */
+}
 .containerHome{
-    border: 15px solid transparent;
-    border-image: url("images/22a0e430523313c103185b0686431db5.jpg") 30 round;
-
+    border: 15px double transparent;
+    border-image: url("images/22a0e430523313c103185b0686431db5.jpg") 30 round; 
+    border-radius: 10px;
     height: 50rem;
     width: 70rem;
     margin-top: 5%;
     margin-left: 18%;
-    background-image: url("images/gif1.gif");
+    /* background-image: url("images/gif1.gif"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75% 75%;
-    /* background-color: orange; */
+    background-color: rgba(255, 166, 0, 0.988);
 }
 h2{
-    margin-left: 40%;
+    margin-left: 35%;
     margin-top: 50%;
+    font-size: 40px;
 }
 #play{
     margin-left: 48%;
