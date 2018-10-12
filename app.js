@@ -8,6 +8,9 @@ function hoverTD() {
     // declare function 
     document.getElementById("tdOne").style.background = "orange"
     // do this : once the html element is grabbed apply css styling 
+    document.getElementById("tdOne").innerHTML = "100"
+    // get the html element that needs to have the number values added to it    
 }
 
-// objective: create a function to apply the card values 100, 200, etc. 
+
+
