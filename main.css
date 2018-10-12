@@ -8,10 +8,11 @@ th{
 td{
     height: 125px;
     width: 150px;
+    box-shadow: 2px 2px;
 }
 .card{
     border: solid;
-    box-shadow: 2px 2px whitesmoke;
+   
     margin: auto;
     width: 28rem;
     height: 25rem;
@@ -19,6 +20,7 @@ td{
 }
 #one{
     background-image: url("images/3d50ebc26ad80853b6045adb73cd4875.jpg")
+    /* image that will display on the card */
 }
 #one:hover{
     opacity: 0;
