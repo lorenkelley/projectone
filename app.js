@@ -6,7 +6,7 @@ document.getElementById("tdOne").addEventListener("mouseover", hoverTD)
 // step two: create a function
 function hoverTD() {
     // declare function 
-    document.getElementById("tdOne").style.background = "orange"
+    document.getElementById("tdOne").style.background = "olive"
     // do this : once the html element is grabbed apply css styling 
     document.getElementById("tdOne").innerHTML = "100"
     // get the html element that needs to have the number values added to it    
