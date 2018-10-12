@@ -1,15 +1,22 @@
+
 .containerHome{
-    border-radius: 10px;
-    height: 40rem;
+    border: 15px solid transparent;
+    border-image: url("images/22a0e430523313c103185b0686431db5.jpg") 30 round;
+
+    height: 50rem;
     width: 70rem;
     margin-top: 5%;
-    margin-left: 13px;
-    background-color:rgb(77, 181, 86);
+    margin-left: 18%;
+    background-image: url("images/gif1.gif");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: 75% 75%;
+    /* background-color: orange; */
 }
-#collage{
-    width:70rem;
-    margin-left: 0%;
-    margin-top: 50px; 
-
+h2{
+    margin-left: 40%;
+    margin-top: 50%;
+}
+#play{
+    margin-left: 48%;
 }

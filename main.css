@@ -8,19 +8,21 @@ th{
 td{
     height: 125px;
     width: 150px;
-    box-shadow: 2px 2px;
+    /* box-shadow: 2px 2px; */
 }
 .card{
-    border: solid;
-   
+    border: none;
     margin: auto;
     width: 28rem;
     height: 25rem;
    
 }
 #one{
-    background-image: url("images/3d50ebc26ad80853b6045adb73cd4875.jpg")
     /* image that will display on the card */
+    background-image: url("images/homepage.png");
+    background-repeat: space;
+    color: whitesmoke;
+    font-size: 10rem;
 }
 #one:hover{
     opacity: 0;
@@ -29,4 +31,16 @@ td{
     transform-style: preserve-3d;
     transition: 0.5s ease-in-out;
     background-color: blueviolet;
+}
+#two{
+    background-image: url("images/homepage.png");
+    background-position: right;
+}
+#three{
+    background-image: url("images/homepage.png");
+    background-position: bottom;
+}
+#four{
+    background-image: url("images/homepage.png");
+    background-position: left;
 }
