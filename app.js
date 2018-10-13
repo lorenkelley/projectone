@@ -8,7 +8,7 @@ function firstTD() {
     // declare function 
     document.getElementById("tdOne").style.background = "#EAA1CC"
     // do this : once the html element is grabbed apply css styling 
-    document.getElementById("tdOne").innerHTML = "<span style= 'font-size: 40px'> Who  </span>"
+    document.getElementById("tdOne").innerHTML = "<span style= 'font-size: 40px'> This Artist Dropped A Surpirse Album With His Wife </span>"
     
     $('#tdOne').append(`<div>
     <div><button onClick="clicked()">Button 2</button></div>
@@ -21,7 +21,7 @@ function secondTD() {
     // declare function 
     document.getElementById("tdTwo").style.background = "#EAA1CC"
     // do this : once the html element is grabbed apply css styling 
-    document.getElementById("tdTwo").innerHTML = "<span style= 'font-size: 40px'> Who  </span>"
+    document.getElementById("tdTwo").innerHTML = "<span style= 'font-size: 40px'></span>"
 
     $('#tdTwo').append(`<div>
      <div><button onClick="clicked()">Button 2</button></div>
@@ -29,41 +29,41 @@ function secondTD() {
 }
 
 //------------function for sweetalert--------
-// function clicked() {
-//     swal({
-//         content: {
-//             element: "input",
-//             attributes: {
-//                 placeholder: "Answer",
-//                 type: "text",
-//             },
-//         },
-//     });
-// }
+function clicked() {
+    swal({
+        // content: {
+        //     element: "input",
+        //     attributes: {
+        //         placeholder: "Answer",
+        //         type: "text",
+        //     },
+        // },
+    });
+}
 
-// -----------function for score----------------------
+// -----------function for score with sweet alert----------------------
 // objective: create a function that take the input value and check to see if it matches the correct answer when the button is clicked
 // step one: go get the button element and listen when the user clicks the element to run a function to check the answer
 
-// step two: declare variables
-// var a = document.getElementsByClassName().value
-// var score = 0
+// // step two: declare variables
+// var a = document.getElementsByClassName("swat-content_input")
+// var score = ""
 
-// step three: create the function to check answer by using if statments
+// // step three: create the function to check answer by using if statments
 
-// document.getElementById("score1").addEventListener("click", function() {
+// document.getElementsByClassName("swal-button--confirm").addEventListener("click", function() {
 //     if (a === "Who is JayZ") {
-//         score += 100
-//         document.getElementById("score1").innerHTML = "100"
+//         // score += 100
+//         document.getElementById('score1').innerHTML = "100"
 //     }
 // })
 
 
 function myFunction () {
     var score = ""
-    var person = prompt("Please Enter Your A=nswer")
+    var person = prompt("This Artist Dropped A Surprise Album With His Wife")
 
-    if( person === "who is jay"){
+    if( person === "Who is Jay-Z"){
         score += "100"
     } 
     document.getElementById("score1").innerHTML = score
