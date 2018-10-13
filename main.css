@@ -1,4 +1,5 @@
 .theBody{
+    /* background-image: url("images/homepage.png"); */
     
   
 }
@@ -7,7 +8,7 @@
 }
 table{
     margin: auto;
-    background-image: url("");
+    /* background-image: url("images/be88d409321916772d18c69f9fe80fdf.jpg"); */
     color: whitesmoke;
 }
 th{
@@ -21,6 +22,7 @@ td{
     /* box-shadow: 2px 2px; */
 }
 p{
+    color: rgb(178, 34, 154);
     font-size: 100px;
     font-weight: bold; 
 }

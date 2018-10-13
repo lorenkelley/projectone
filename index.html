@@ -31,6 +31,11 @@
         <!-- create a table: the table will hold the categoeries and the cards for each cateogry  -->
         <table class="table table-bordered">
             <thead>
+                    <tr>
+                            <th id="score1" scope="row">Score</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>Score</td>
+                          </tr>
                 <tr>
                     <!-- categories for game board -->
                     <th scope="col">FASHION</th>
@@ -42,8 +47,6 @@
             <tbody>
                 <!-- tr row of cells -->
                 <tr>
-                <div class="score">SCORE
-                    <div id="playerOne">1</div>
                 </div>
                     <!-- td is the data cell in the table will hold cards plus different values (100-500)-->
                     <td id="tdOne">
@@ -55,7 +58,7 @@
                             </div>
 
                     </td>
-                    <td>
+                    <td id="tdTwo">
                     
                             <div class="card" id="two" onclick="clickMe()">
                                 
@@ -63,7 +66,7 @@
                             </div>
                         
                     </td>
-                    <td>
+                    <td id="tdThree">
                             <div class="card" id="three">
                                 <p id="numTag">100</p>
                             </div>
@@ -115,20 +118,6 @@
                     </td>
                     <td>
                         <div class="card" id="sixTeen"></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="card" id="sevenTeen"></div>
-                    </td>
-                    <td>
-                        <div class="card" id="eightTeen"></div>
-                    </td>
-                    <td>
-                        <div class="card" id="nineTeen"></div>
-                    </td>
-                    <td>
-                        <div class="card" id="twenty"></div>
                     </td>
                 </tr>
             </tbody>
