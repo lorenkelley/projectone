@@ -77,8 +77,7 @@ p{
       width: 119rem;
       height: 5rem;
   }
-  .playerOne{
+  #playerOne{
       border: solid;
       width: 50rem;
   }
-  
