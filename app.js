@@ -60,13 +60,11 @@ function secondTD() {
 
 
 function myFunction () {
-    var score = 0
-    var person = prompt("Enter your answer")
+    var score = ""
+    var person = prompt("Please Enter Your A=nswer")
 
     if( person === "who is jay"){
         score += "100"
-    } else{
-        text = "incorrect"
-    }
+    } 
     document.getElementById("score1").innerHTML = score
 }
