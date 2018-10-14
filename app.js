@@ -6,13 +6,13 @@ document.getElementById("tdOne").addEventListener("click", firstTD)
 // step two: create a function to apply background color and and a button to the html element
 function firstTD() {
     // declare function 
-    document.getElementById("tdOne").style.background = "#EAA1CC"
+    document.getElementById("tdOne").style.background = "plum"
     // do this : once the html element is grabbed apply css styling 
-    document.getElementById("tdOne").innerHTML = "<span style= 'font-size: 40px'> This Artist Dropped A Surpirse Album With His Wife </span>"
+    document.getElementById("tdOne").innerHTML = "<span style= 'font-size: 40px'></span>"
     
-    $('#tdOne').append(`<div>
-    <div><button onClick="clicked()">Button 2</button></div>
-    </div>`)
+    // $('#tdOne').append(`<div>
+    // <div><button onClick="clicked()">Button 2</button></div>
+    // </div>`)
     //go get the element and add a button to it 
 }
 document.getElementById("tdTwo").addEventListener("click", secondTD)
@@ -23,48 +23,74 @@ function secondTD() {
     // do this : once the html element is grabbed apply css styling 
     document.getElementById("tdTwo").innerHTML = "<span style= 'font-size: 40px'></span>"
 
-    $('#tdTwo').append(`<div>
-     <div><button onClick="clicked()">Button 2</button></div>
-     </div>`)
+    // $('#tdTwo').append(`<div>
+    //  <div><button onClick="clicked()">Button 2</button></div>
+    //  </div>`)
 }
+document.getElementById("tdThree").addEventListener("click", thirdTD)
 
-//------------function for sweetalert--------
-function clicked() {
-    swal({
-        // content: {
-        //     element: "input",
-        //     attributes: {
-        //         placeholder: "Answer",
-        //         type: "text",
-        //     },
-        // },
-    });
+function thirdTD() {
+    // declare function 
+    document.getElementById("tdThree").style.background = "#EAA1CC"
+    // do this : once the html element is grabbed apply css styling 
+    document.getElementById("tdThree").innerHTML = "<span style= 'font-size: 40px'></span>"
+
+    // $('#tdTwo').append(`<div>
+    //  <div><button onClick="clicked()">Button 2</button></div>
+    //  </div>`)
 }
+document.getElementById("tdFour").addEventListener("click", fourTD)
 
-// -----------function for score with sweet alert----------------------
-// objective: create a function that take the input value and check to see if it matches the correct answer when the button is clicked
-// step one: go get the button element and listen when the user clicks the element to run a function to check the answer
+function fourTD() {
+    // declare function 
+    document.getElementById("tdFour").style.background = "#EAA1CC"
+    // do this : once the html element is grabbed apply css styling 
+    document.getElementById("tdFour").innerHTML = "<span style= 'font-size: 40px'></span>"
 
-// // step two: declare variables
-// var a = document.getElementsByClassName("swat-content_input")
-// var score = ""
-
-// // step three: create the function to check answer by using if statments
-
-// document.getElementsByClassName("swal-button--confirm").addEventListener("click", function() {
-//     if (a === "Who is JayZ") {
-//         // score += 100
-//         document.getElementById('score1').innerHTML = "100"
-//     }
-// })
-
-
-function myFunction () {
-    var score = ""
+    // $('#tdTwo').append(`<div>
+    //  <div><button onClick="clicked()">Button 2</button></div>
+    //  </div>`)
+}
+// ------------------------------------------------------------------------------------------
+// function for question and score
+// #1
+var score = 0
+function questionOne () {
+    
     var person = prompt("This Artist Dropped A Surprise Album With His Wife")
 
     if( person === "Who is Jay-Z"){
-        score += "100"
+        score += 100
+    } 
+    document.getElementById("score1").innerHTML = score
+}
+//#2
+function questionTwo () {
+    
+    var person = prompt("The Latest Iphone To Come Out: 222 - rgh -jjjk")
+
+    if( person === "What is the iphone 20"){
+        score += 100
+    } 
+    document.getElementById("score1").innerHTML = score
+}
+//#3
+function questionThree () {
+    
+    var person = prompt("The Latest Iphone To Come Out: 222 - rgh -jjjk")
+
+    if( person === "What is the iphone 20"){
+        score += 100
+    } 
+    document.getElementById("score1").innerHTML = score
+}
+//#4
+function questionFour () {
+    
+    var person = prompt("The Latest Iphone To Come Out: 222 - rgh -jjjk")
+
+    if( person === "What is the iphone 20"){
+        score += 100
     } 
     document.getElementById("score1").innerHTML = score
 }

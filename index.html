@@ -23,7 +23,8 @@
 <!-- Sweet Alert -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <!-- google fonts -->
-
+<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
 
 </head>
 
@@ -35,11 +36,15 @@
         <table class="table table-bordered">
             <thead>
                     <tr>
-                            <th id="score" scope="row"> Score <p id="score1">$</p> </th>
-                            <td colspan="2"></td>
-                            <td></td>
+                            <th id="score" scope="row"> </th>
+                            <td colspan="2">
+                                <div class="scoreBoard">
+                                <h2>SCORE</h2> <p id="score1">$</p>
+                                </div>
+                            </td>
+                            <!-- <td></td> -->
                           </tr>
-                <tr>
+                <tr class="cat">
                     <!-- categories for game board -->
                     <th  class="thCat" scope="col">FASHION</th>
                     <th class="thCat" scope="col">TECHNLOGY</th>
@@ -52,7 +57,7 @@
                 <tr>
                 </div>
                     <!-- td is the data cell in the table will hold cards plus different values (100-500)-->
-                    <td id="tdOne">
+                    <td id="tdOne" onclick="questionOne()">
                         
                         <!-- make the div into a button that can called on in javscript to display my modal -->
                         
@@ -61,7 +66,7 @@
                             </div>
 
                     </td>
-                    <td id="tdTwo" onclick="myFunction()">
+                    <td id="tdTwo" onclick="questionTwo()">
                     
                             <div class="card" id="two" onclick="clickMe()" >
                                 
@@ -75,7 +80,7 @@
                             </div>
                        
                     </td>
-                    <td>
+                    <td id="tdFour">
                             <div class="card" id="four">
                                     <h1 id="numTag">100</h1>
                             </div>
