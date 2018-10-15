@@ -1,32 +1,20 @@
 .theBody{
-    /* background-image: url("images/c49c58a4c8ff51579ec93ea2edb289f7.jpg"); */
-    
-        /* background-image: linear-gradient(rgba(235, 91, 182, 0.397) , rgb(33, 218, 238, 0.897)); */
         background-image: url("images/camo.jpg");
-        background-size: 100% 100%;
+        background-size: cover;
 }
 
 table{
-    /* margin: auto; */
     border: solid 10px;
-    
-    /* background-image: url("images/be88d409321916772d18c69f9fe80fdf.jpg"); */
-    /* color: whitesmoke; */
 }
 
-td{  background-color: rgba(245, 245, 245, 0.829);
+td{  background-color: rgba(245, 245, 245, 0.856);
     height: 125px;
     width: 150px;
-    
-    /* box-shadow: 2px 2px; */
 }
 p{
     color: rgb(10, 11, 10);
     font-size: 50px;
     font-weight: bold; 
-}
-.cat{
-   
 }
 .thCat{
     background-color: whitesmoke;
@@ -35,7 +23,6 @@ p{
     text-align: center;
     font-size: 50px;
     font-family: 'Unica One', cursive;
-    /* font-family: 'Unica One', cursive; */
 }
 #numTag{
     box-shadow: 2px 2px rgb(237, 217, 227);
@@ -88,15 +75,13 @@ p{
 }
 #seven{
     background-image: url("images/b19c30050f15e11767824d0ffc379530.jpg");
-    background-position: top;
+    background-position: left;
     background-size: 100% ;
 }
-.swal-overlay {
-    background-color: rgba(43, 165, 137, 0.45);
-  }
+
   #eight{
-    background-image: url("images/b19c30050f15e11767824d0ffc379530.jpg");
-    background-position: top;
+    background-image: url("images/homepage.png");
+    background-position: right;
     background-repeat: no-repeat;
 }
 #nine{
@@ -106,12 +91,12 @@ p{
 }
 #ten{
     background-image: url("images/891d1daea7a84d228a18fd819119c0f7.jpg");
-    background-position: bottom;
+    background-position: right;
     background-repeat: no-repeat;
 }
 #eleven{
     background-image: url("images/homepage.png");
-    background-position: right;
+    background-position: top;
     background-repeat: no-repeat;
 }
 #twelve{
@@ -124,6 +109,10 @@ p{
     background-position: top;
     background-size: 100% ;
 }
+.swal-overlay {
+    background-color: rgba(235, 139, 250, 0.562)
+  }
+  
   .score{
       border: solid;
       width: 119rem;
