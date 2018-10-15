@@ -25,7 +25,7 @@
 [Check Out My Project Trello Board Here:](https://trello.com/b/HI1xP0pf/wdi-project-one)
 
 ## Play 
-[ Check Out The Game Here: ](https://trello.com/b/HI1xP0pf/wdi-project-one)
+[ Check Out The Game Here: ](https://app.netlify.com/drop/sleepy-goldstine-1f516d)
 
 
 # Version 2.0
