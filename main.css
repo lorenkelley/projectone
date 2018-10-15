@@ -1,45 +1,53 @@
-.theBody{
-        background-image: url("images/camo.jpg");
-        background-size: cover;
+.theBody {
+    background-image: url("images/camo.jpg");
+    background-size: contain;
 }
 
-table{
+table {
     border: solid 10px;
 }
 
-td{  background-color: rgba(245, 245, 245, 0.856);
+td {
+    background-color: rgba(1, 0, 0, 0.678);
     height: 125px;
     width: 150px;
 }
-p{
-    color: rgb(10, 11, 10);
+
+p {
+    color: rgb(237, 245, 237);
     font-size: 50px;
-    font-weight: bold; 
+    font-weight: bold;
 }
-.thCat{
-    background-color: whitesmoke;
-    color: rgba(0, 0, 0, 0.913); 
+
+.thCat {
+    background-color: rgb(7, 7, 7);
+    color: whitesmoke;
     text-decoration: dotted;
     text-align: center;
     font-size: 50px;
     font-family: 'Unica One', cursive;
 }
-#numTag{
+#scoreBoard{
+    color: whitesmoke;
+}
+#numTag {
     box-shadow: 2px 2px rgb(237, 217, 227);
     border: double rgb(12, 12, 12);
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 31, 43);
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
     width: 70px;
     font-size: 40px;
     font-weight: 25%;
 }
-.card{
+
+.card {
     border: none;
     margin: auto;
     width: 28rem;
     height: 25rem;
 }
-#one{
+
+#one {
     /* image that will display on the card */
     background-image: url("images/cardi\ 2.png");
     background-repeat: no-repeat;
@@ -48,77 +56,95 @@ p{
     font-size: 10rem;
 }
 
-#two{
+#two {
     background-image: url("images/2a0a40bce5871532ef14071f500778d3.jpg");
     background-position: left;
     background-repeat: no-repeat;
 }
-#three{
+
+#three {
     background-image: url("images/homepage.png");
     background-position: bottom;
     background-repeat: no-repeat;
 }
-#four{
+
+#four {
     background-image: url("images/homepage.png");
-    background-position: center 
-    background-repeat: no-repeat;
+    background-position: center background-repeat: no-repeat;
 }
-#five{
+
+#five {
     background-image: url("images/2a0a40bce5871532ef14071f500778d3.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
 }
-#six{
+
+#six {
     background-image: url("images/891d1daea7a84d228a18fd819119c0f7.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
-#seven{
+
+#seven {
     background-image: url("images/b19c30050f15e11767824d0ffc379530.jpg");
     background-position: left;
-    background-size: 100% ;
+    background-size: 100%;
 }
 
-  #eight{
+#eight {
     background-image: url("images/homepage.png");
     background-position: right;
     background-repeat: no-repeat;
 }
-#nine{
+
+#nine {
     background-image: url("images/nicki.png");
     background-position: center;
     background-repeat: repeat;
 }
-#ten{
+
+#ten {
     background-image: url("images/891d1daea7a84d228a18fd819119c0f7.jpg");
     background-position: right;
     background-repeat: no-repeat;
 }
-#eleven{
+
+#eleven {
     background-image: url("images/homepage.png");
     background-position: top;
     background-repeat: no-repeat;
 }
-#twelve{
+
+#twelve {
     background-image: url("images/2a0a40bce5871532ef14071f500778d3.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
-#thirteen{
+
+#thirteen {
     background-image: url("images/nicki.png");
     background-position: top;
-    background-size: 100% ;
+    background-size: 100%;
 }
+
 .swal-overlay {
-    background-color: rgba(235, 139, 250, 0.562)
+    background-color: rgba(255, 105, 180, 0.712);
+}
+.swal-modal {
+    background-color: whitesmoke;
+    background-image: url()
+    border: 3px solid white;
   }
-  
-  .score{
-      border: solid;
-      width: 119rem;
-      height: 5rem;
+  .swal-text {
+    color:black;
   }
-  #playerOne{
-      border: solid;
-      width: 50rem;
-  }
+.score {
+    border: solid;
+    width: 119rem;
+    height: 5rem;
+}
+
+#playerOne {
+    border: solid;
+    width: 50rem;
+}

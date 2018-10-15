@@ -4,7 +4,7 @@ body{
   background-size: contain;
 }
 .containerHome{
-    border: 20px double rgb(255, 255, 255) ;
+    border: 20px double rgb(7, 7, 7) ;
     /* border-image: url("images/49e632b7827ccf6b82b9e6daf9a4a848.jpg") 30 round;  */
     border-radius: 20px;
     height: 50rem;
