@@ -1,29 +1,27 @@
+// function to change background color of table cell
+document.getElementById("tdTwo").addEventListener("click", secondTD)
+
+function secondTD() {
+    // declare function 
+    document.getElementById("tdTwo").style.background = "#EAA1CC"
+    // do this : once the html element is grabbed apply css styling 
+    document.getElementById("tdTwo").innerHTML = "<span style= 'font-size: 40px'></span>"
+
+}
 //------------function for sweetalert--------
-// function clicked() {
-//     swal({
-//         // content: {
-//         //     element: "input",
-//         //     attributes: {
-//         //         placeholder: "Answer",
-//         //         type: "text",
-//         //     },
-//         // },
-//     });
-// }
+var score = 0
 
-// -----------function for score with sweet alert----------------------
-// objective: create a function that take the input value and check to see if it matches the correct answer when the button is clicked
-// step one: go get the button element and listen when the user clicks the element to run a function to check the answer
+function clickMe() {
+    swal("Write something here:", {
+        content: "input",
+      })
+      .then((value) => {
+        if( value === "Who is Jay-Z"){
+            score += 100
+        }  
+        document.getElementById("score1").innerHTML = score
+      });
+}
 
-// // step two: declare variables
-// var a = document.getElementsByClassName("swat-content_input")
-// var score = ""
-// var sweetAlert = document.getElementsByTagName("button").setAttribute("id", "sweetButton")
-// // step three: create the function to check answer by using if statments
 
-// document.getElementById("sweetButton").addEventListener("click", function() {
-//     if (a === "Who is JayZ") {
-//         // score += 100
-//         document.getElementById('score1').innerHTML = "100"
-//     }
-// })
+

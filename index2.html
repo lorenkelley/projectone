@@ -23,6 +23,9 @@
 
 <!-- Sweet Alert -->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
 
 
 </head>
@@ -35,16 +38,14 @@
         <table class="table table-bordered">
             <thead>
                     <tr>
-                            <th id="score" scope="row"> Score <p id="score1">$</p> </th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>Score</td>
+                            <td colspan="4">Score <p id="score1">$</p></td>
                           </tr>
                 <tr>
                     <!-- categories for game board -->
-                    <th scope="col">FASHION</th>
-                    <th scope="col">TECHNLOGY</th>
-                    <th scope="col">MUSIC</th>
-                    <th scope="col">POLITICS</th>
+                    <th class="thCat" scope="col">FASHION</th>
+                    <th class="thCat" scope="col">TECHNLOGY</th>
+                    <th class="thCat" scope="col">MUSIC</th>
+                    <th class="thCat" scope="col">POLITICS</th>
                 </tr>
             </thead>
             <tbody>
@@ -61,9 +62,9 @@
                             </div>
 
                     </td>
-                    <td id="tdTwo">
+                    <td id="tdTwo" onclick="clickMe()">
                     
-                            <div class="card" id="two" onclick="clickMe()" >
+                            <div class="card" id="two"  >
                                 
                                 <p id="numTag">100</p>
                             </div>

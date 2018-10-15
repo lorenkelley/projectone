@@ -4,7 +4,7 @@ body{
   background-size: 100% 100%;
 }
 .containerHome{
-    border: 10px double rgb(0, 0, 0) ;
+    border: 20px double rgb(4, 4, 4) ;
     /* border-image: url("images/49e632b7827ccf6b82b9e6daf9a4a848.jpg") 30 round;  */
     border-radius: 20px;
     height: 50rem;
@@ -32,12 +32,12 @@ h2{
     font-family: 'Unica One', cursive;
 }
 button{
-    border: dotted rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    border: dotted rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 50px;
     width: 175px;
-    color: rgb(255, 255, 255);
-    box-shadow: 2px 2px whitesmoke;
+    color: hotpink;
+    box-shadow: 2px 2px rgb(121, 118, 118);
 }
 #play{
     margin-left: 43%;
