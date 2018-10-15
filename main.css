@@ -5,36 +5,37 @@
 
 table {
     border: solid 10px;
+   ;
 }
 
 td {
-    background-color: rgba(1, 0, 0, 0.678);
+    background-color: rgba(251, 249, 235, 0.329);
     height: 125px;
     width: 150px;
 }
 
 p {
-    color: rgb(237, 245, 237);
+    color: #FBF9EB;
     font-size: 50px;
     font-weight: bold;
 }
 
 .thCat {
-    background-color: rgb(7, 7, 7);
-    color: whitesmoke;
+    background-color: #FBF9EB ;
+    color: rgb(12, 12, 12);
     text-decoration: dotted;
     text-align: center;
     font-size: 50px;
     font-family: 'Unica One', cursive;
 }
 #scoreBoard{
-    color: whitesmoke;
+    background-color: rgb(21, 21, 21);
 }
 #numTag {
     box-shadow: 2px 2px rgb(237, 217, 227);
-    border: double rgb(12, 12, 12);
+    border: double rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     width: 70px;
     font-size: 40px;
     font-weight: 25%;
@@ -128,7 +129,7 @@ p {
 }
 
 .swal-overlay {
-    background-color: rgba(255, 105, 180, 0.712);
+    background-color: rgba(255, 105, 180, 0.596);
 }
 .swal-modal {
     background-color: whitesmoke;

@@ -14,26 +14,27 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 75% 75%;
-    background-image: url("images/gif1.gif");
+    background-image: url("images/ink.gif");
     background-size: cover;
 }
 h1{
-    margin-left: 35%;
+    margin-left: 20%;
     margin-top: 10%;
-    font-size: 40px;
-    
+    font-size: 25rem;
+    text-shadow: 5px 5px rgb(227, 219, 226);
     font-family: 'Unica One', cursive;
 }
 h2{
-    margin-left: 33%;
-    margin-top: 53%;
+    margin-left: 34%;
+    margin-top: -30%;
     font-size: 63px;
-    text-shadow: 3px 3px rgba(121, 117, 117, 0.795);
+    text-shadow: 5px 5px rgb(227, 219, 226);
     font-family: 'Unica One', cursive;
 }
 button{
-    border: solid rgb(240, 240, 240);
+    border: double rgb(240, 240, 240);
     background-color: hotpink;
+    
     height: 50px;
     width: 175px;
     color: gold;
