@@ -18,7 +18,7 @@ function clickMeOne() {
             content: "input",
         })
         .then((value) => {
-            if (value === "What is Dart") {
+            if (value == " What is Dart") {
                 score += 100
             }
             document.getElementById("score1").innerHTML = score
@@ -110,11 +110,11 @@ function sixthTD() {
 }
 
 function clickMeSix() {
-    swal("  ", {
+    swal(" This css property started to replace Flex-Box ", {
             content: "input",
         })
         .then((value) => {
-            if (value === "") {
+            if (value === "What is grid") {
                 score += 200
             }
             document.getElementById("score1").innerHTML = score
@@ -172,7 +172,7 @@ function clickMeNine() {
         })
         .then((value) => {
             if (value === "What is Black Panther") {
-                score += 200
+                score += 300
             }
             document.getElementById("score1").innerHTML = score
         });
@@ -187,12 +187,12 @@ function tenthTD() {
 }
 
 function clickMeTen() {
-    swal(" What super hero movie grossed over 700 million dollars in 2018?", {
+    swal(" By the end of WDI we will be known as", {
             content: "input",
         })
         .then((value) => {
-            if (value === "What is Black Panther") {
-                score += 200
+            if (value === "What is full stack developers") {
+                score += 300
             }
             document.getElementById("score1").innerHTML = score
         });
